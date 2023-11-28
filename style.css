@@ -4,6 +4,11 @@ h1 {
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
+
+body {
+  background-color: green;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -26,4 +31,22 @@ h2 {
 .section {
     border: 5px black solid;
     margin:5px;
+  width: 400px;
+}
+
+p {
+  font-size: 30px
+}
+
+.img {
+  border: 6px solid black;
+  border-style: double;
+}
+.image-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listed {
+  font-size: 30px;
 }
